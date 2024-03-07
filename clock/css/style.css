@@ -1,0 +1,47 @@
+#clock{
+    /* border: 2px solid black; */
+    height: 40vw;
+    width: 40vw;
+    background: url(./../clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hr, #min, #sec {
+    position: absolute;
+    background: black;
+    transform-origin: bottom; 
+    /* rotate through bottom */
+}
+
+#hr{
+    height: 22%;
+    width: 1.5%;
+    left: 50.1%;
+    top: 27.35%;
+    border-radius: 58%;
+}
+#circle{
+    position: absolute;
+    height: 4%;
+    width: 4%;
+    border-radius: 50%;
+    background: black;
+    top: 47.2%;
+    left: 48.4%;
+}
+#min{
+    height: 24%;
+    width: 1.1%;
+    left: 50.1%;
+    top: 25.35%;
+    border-radius: 43%;
+}
+#sec{
+    height: 26%;
+    width: 0.7%;
+    left: 50.1%;
+    top: 23.37%;
+    border-radius: 33%;
+}
